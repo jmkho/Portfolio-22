@@ -1,5 +1,5 @@
 ## Portfolio-22
-####Compilation of my programming projects [individual &amp; group].
+Compilation of my programming projects [individual &amp; group].
 
 
 Hi! So this is a quick overview of the best projects I had made throughout my college years (2020 ~ now). 
