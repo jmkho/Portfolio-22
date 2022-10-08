@@ -1,0 +1,112 @@
+@font-face{
+    font-family: August;
+    src: url(../asset/August-Bold.ttf)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    font-family: 'Helvetica';
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #BA3737;
+}
+
+body{
+    background-color: #101010;
+    font-family: 'Helvetica';
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+ul{
+   list-style: none; 
+   display: flex;
+   width: 40%;
+   justify-content: space-between;
+}
+
+.Judul {
+    color:#BA3737;
+    font-family: 'August';
+    font-size: 80pt;
+    font-weight: 700;
+    letter-spacing: 0;
+    min-height: 154px;
+    min-width: 372px;
+    padding-left: 5vw;
+    padding-top: 1vw;
+}
+
+#Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.cast-profile{
+    width: 320px;
+    height: 500px;
+    margin: 30px;
+    text-align: center;
+}
+
+.image{
+    width: 279px;
+    height: 400px;
+    box-sizing: border-box;
+    object-fit: cover;
+    transition: 0.3s;
+    border-color: transparent;
+    filter: grayscale(100%);  
+}
+.image:hover{
+    transform: scale(1.2);
+    border-radius: 25px;
+    filter: none;
+    z-index: 1;
+}
+
+.txt-content{
+    padding: 50px 20px;
+}
+
+.cast-profile h3{
+    color: rgba(255, 255, 255, 1);
+    /* color: #BA3737; */
+    height: auto;
+    font-size: 60px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: 'August';
+    font-weight: 700px;
+    font-stretch: normal;
+    text-decoration: none; 
+}
+
+.txt{
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 22px;
+    letter-spacing: 1px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: 'Helvetica';
+    font-weight: 400px;
+    font-stretch: normal;
+    text-decoration: none;
+}

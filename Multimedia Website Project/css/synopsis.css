@@ -1,0 +1,81 @@
+@font-face{
+    font-family: August;
+    src: url(../asset/August-Bold.ttf)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    font-family: 'Helvetica';
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #BA3737;
+}
+
+body{
+    background-color: #101010;
+    font-family: 'Helvetica';
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+ul{
+   list-style: none; 
+   display: flex;
+   width: 40%;
+   justify-content: space-between;
+}
+
+/* #content{
+    padding-;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+.content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-title{
+    font-family: 'August';
+    color: #BA3737;
+    font-size: 100pt;
+    font-weight: bold;
+    margin-bottom: 25px;
+    animation: textpar 0.5s 1;
+}
+
+.par{
+    padding: 15px;
+    margin-top: 5px;
+    color: #FFFFFF;
+    justify-content: center;
+    max-width: 750px;
+    text-align: center;
+    letter-spacing: 1px;
+    animation: textpar 0.75s 1;
+}
+
+
+@keyframes textpar  {
+    0%{
+        color: #101010;
+        margin-bottom: -40px;
+    }
+}

@@ -1,0 +1,84 @@
+@font-face{
+    font-family: August;
+    src: url(../asset/August-Bold.ttf)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    font-family: 'Helvetica';
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #BA3737;
+}
+
+body{
+    background-color: #101010;
+    font-family: 'Helvetica';
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+ul{
+   list-style: none; 
+   display: flex;
+   width: 40%;
+   justify-content: space-between;
+}
+
+#home-content{
+    background-image: url('../asset/backgroundHome.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.line{
+    font-family: 'August';
+    color: #BA3737;
+    font-size: 150pt;
+    width: 24cm;
+    top: 15%;
+    position: relative;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.type-title{
+    animation: typewriter 2.3s steps(15) 1s 1 normal both,
+    blinkTextCursor 750ms steps(15) infinite normal;
+}
+
+@keyframes typewriter{
+    from{
+        width: 0;
+    } to{
+        width: 16cm;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from{
+        border-right-color: rgba(255, 255, 255, 0.75);
+    } to{
+        border-right-color: transparent;
+    }
+}
